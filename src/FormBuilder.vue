@@ -30,6 +30,13 @@
     import {ValidateSettingHandler} from "sethFormBuilder/template/handler/validate_setting_handler";
     import {CONTROL_TYPES} from "sethFormBuilder/config/control_constant";
 
+    // vuesaxify
+    import Vue from 'vue'
+    import { vsInput, vsButton } from 'vuesax'
+    import 'vuesax/dist/vuesax.css'
+    Vue.use(vsInput)
+    Vue.use(vsButton)
+
     export default {
         name: "FormBuilder",
         components: {

@@ -9,12 +9,12 @@
                 </select>
             </div>
             <div class="col-md-10 text-right">
-                <button class="btn btn-default" @click="preview">
+                <vs-button class="btn btn-default" @click="preview">
                     <font-awesome-icon icon="image"/>
                     Preview
-                </button>
+                </vs-button>
 
-                <button class="btn btn-default" @click="addSection">Add Section</button>
+                <vs-button class="btn btn-default" @click="addSection">Add Section</vs-button>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-md-4">
-                                <input type="text" class="form-control" placeholder="Section Label" v-model="section.label">
+                                <vs-input type="text" class="form-control" placeholder="Section Label" v-model="section.label"></vs-input>
                             </div>
                             <div class="col-md-8 text-right">
                                 <p style="margin-top: 5px;">
