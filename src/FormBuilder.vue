@@ -32,7 +32,7 @@
 
     // vuesaxify
     import Vue from 'vue'
-    import { vsInput, vsButton } from 'vuesax'
+    import { vsInput, vsButton, vsCollapse, vsCollapseItem } from 'vuesax'
     import 'vuesax/dist/vuesax.css'
     Vue.use(vsInput)
     Vue.use(vsButton)

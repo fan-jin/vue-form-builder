@@ -2,10 +2,12 @@
     <div class="row" v-if="form !== null">
         <!-- collapse layout -->
         <div class="col-md-12 sectionItem" v-if="form.layout === 'collapse'">
-            <collapse-section-layout v-for="(section, index) in form.sections"
-                                     :key="section.name"
-                                     :section="section">
-            </collapse-section-layout>
+           <vs-collapse>
+                <collapse-section-layout v-for="(section, index) in form.sections"
+                                        :key="section.name"
+                                        :section="section">
+                </collapse-section-layout>
+           </vs-collapse>
         </div>
 
         <!-- tab layout-->
