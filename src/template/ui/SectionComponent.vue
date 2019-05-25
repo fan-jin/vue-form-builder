@@ -22,7 +22,7 @@
             <div class="col-xs-12 mt-2 accordion sectionItem" v-for="(section, index) in form.sections" :id="section.name" :key="section.name">
                 <div class="card">
                     <div class="card-header">
-                        <div class="row">
+                        <div class="vx-row">
                             <div class="col-md-4">
                                 <vs-input type="text" class="form-control" placeholder="Section Label" v-model="section.label"></vs-input>
                             </div>
