@@ -8,7 +8,7 @@
             </div>
             <div class="col-md-8 input-group">
                 <div class="text-center w-100">
-                    <input type="checkbox" :name="control.fieldName" :checked="control.isChecked">
+                    <vs-checkbox :name="control.fieldName" :checked="control.isChecked"/>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 </label>
                 <div class="input-group">
                     <div class="text-center w-100">
-                        <input type="checkbox" :name="control.fieldName" :checked="control.isChecked">
+                        <vs-checkbox :name="control.fieldName" :checked="control.isChecked"/>
                     </div>
                 </div>
             </div>

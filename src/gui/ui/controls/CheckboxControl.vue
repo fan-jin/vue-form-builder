@@ -8,7 +8,7 @@
                 </label>
             </div>
             <div class="col-md-8 text-center">
-                <input type="checkbox"
+                <vs-checkbox
                        :readonly="this.control.readonly"
                        :name="control.fieldName"
                        v-model="control.value" />
@@ -21,7 +21,7 @@
             </label>
 
             <div class="text-center">
-                <input type="checkbox"
+                <vs-checkbox
                        :readonly="this.control.readonly"
                        :name="control.fieldName"
                        v-model="control.value" />

@@ -7,10 +7,10 @@
                 </label>
             </div>
             <div class="col-md-8 input-group">
-                <input type="text" class="form-control"
+                <vs-input type="text" class="form-control"
                        :readonly="control.readonly"
                        :name="control.fieldName"
-                       :value="demo_value">
+                       :value="demo_value"/>
             </div>
         </div>
         <div class="controlItem row" :id="control.name" v-else>
@@ -19,10 +19,10 @@
                     {{control.label}}
                 </label>
                 <div class="input-group">
-                    <input type="text" class="form-control"
+                    <vs-input type="text" class="form-control"
                            :readonly="control.readonly"
                            :name="control.fieldName"
-                           :value="demo_value">
+                           :value="demo_value"/>
                 </div>
             </div>
         </div>
