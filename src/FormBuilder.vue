@@ -32,10 +32,14 @@
 
     // vuesaxify
     import Vue from 'vue'
-    import { vsInput, vsButton, vsCollapse, vsCollapseItem } from 'vuesax'
+    import { vsInput, vsButton, vsCollapse, vsCollapseItem, vsTextarea } from 'vuesax'
     import 'vuesax/dist/vuesax.css'
     Vue.use(vsInput)
     Vue.use(vsButton)
+    Vue.use(vsCollapse)
+    Vue.use(vsCollapseItem)
+    Vue.use(vsTextarea)
+
 
     export default {
         name: "FormBuilder",

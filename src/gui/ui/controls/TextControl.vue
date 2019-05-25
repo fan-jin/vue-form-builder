@@ -7,16 +7,17 @@
                 </label>
             </div>
             <div class="col-md-8">
-                <input type="text"
+                <vs-input type="text"
                        class="form-control"
                        :readonly="this.control.readonly"
                        v-if="!control.isMultiLine"
                        :name="control.fieldName"
-                       v-model="control.value" />
-                <textarea v-else class="form-control"
+                       v-model="control.value">
+                </vs-input>
+                <vs-textarea v-else class="form-control"
                           v-model="control.value"
                           :readonly="this.control.readonly"
-                          :name="control.fieldName"></textarea>
+                          :name="control.fieldName"></vs-textarea>
             </div>
         </div>
         <div v-else class="form-group">
@@ -24,16 +25,17 @@
                 {{control.label}}
             </label>
 
-            <input type="text"
+            <vs-input type="text"
                    class="form-control"
                    :readonly="this.control.readonly"
                    v-if="!control.isMultiLine"
                    :name="control.fieldName"
-                   v-model="control.value" />
-            <textarea v-else class="form-control"
+                   v-model="control.value">
+            </vs-input>
+            <vs-textarea v-else class="form-control"
                       v-model="control.value"
                       :readonly="this.control.readonly"
-                      :name="control.fieldName"></textarea>
+                      :name="control.fieldName"></vs-textarea>
         </div>
     </div>
 </template>

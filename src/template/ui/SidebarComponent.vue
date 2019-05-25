@@ -18,8 +18,8 @@
                         <h4>{{controlInfo.label}}</h4>
                     </div>
                     <div class="col-md-6 text-right">
-                        <button class="btn btn-default" @click="applyEditSidebar">Apply</button>
-                        <button class="btn btn-default" @click="closeEditSidebar">Close</button>
+                        <vs-button class="btn btn-default" @click="applyEditSidebar">Apply</vs-button>
+                        <vs-button class="btn btn-default" @click="closeEditSidebar">Close</vs-button>
                     </div>
                 </div>
 
