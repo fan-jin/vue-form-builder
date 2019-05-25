@@ -167,7 +167,7 @@
             </div>
         </div>
 
-        <select-ajax-modal ref="SelectAjaxModal"></select-ajax-modal>
+
     </div>
 </template>
 

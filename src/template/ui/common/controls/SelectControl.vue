@@ -8,8 +8,8 @@
             </div>
             <div class="col-md-8 input-group">
                 <vs-select class="form-control" v-if="control.type == 'select'" :name="control.fieldName">
-                    <option disabled selected>Options</option>
-                    <option v-for="option in control.dataOptions">{{option.text}}</option>
+                    <vs-select-item disabled selected text='Options'/>
+                    <vs-select-item v-for="option in control.dataOptions" :text="options.text">/>
                 </vs-select>
             </div>
         </div>
@@ -20,8 +20,8 @@
                 </label>
                 <div class="input-group">
                     <vs-select class="form-control" v-if="control.type == 'select'" :name="control.fieldName">
-                        <option disabled selected>Options</option>
-                        <option v-for="option in control.dataOptions">{{option.text}}</option>
+                        <vs-select-item disabled selected>Options</vs-select-item>
+                        <vs-select-item v-for="option in control.dataOptions">{{option.text}}</vs-select-item>
                     </vs-select>
                 </div>
             </div>

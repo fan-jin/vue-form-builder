@@ -37,16 +37,7 @@
                 </tr>
                 </tbody>
             </table>
-            <div class="form-group" v-else>
-                <label>
-                    Ajax URL
-                    <a href="javascript:void(0)" @click="dataAjaxModal"><i class="fa fa-info-circle"></i></a>
-                </label>
-                <input type="text" class="form-control ajaxDataUrl" v-model="control.ajaxDataUrl">
-            </div>
         </div>
-
-        <select-ajax-modal ref="SelectAjaxModal"></select-ajax-modal>
     </div>
 </template>
 
