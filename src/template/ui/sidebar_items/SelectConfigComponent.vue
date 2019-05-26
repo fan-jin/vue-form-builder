@@ -2,7 +2,7 @@
     <div class="row mt-2">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="isMultiple" v-model="control.isMultiple"> Multiple Select
+                <vs-checkbox name="isMultiple" v-model="control.isMultiple"/> Multiple Select
             </label>
         </div>
 
@@ -29,10 +29,10 @@
                         <font-awesome-icon icon="times" class="clickable" @click="removeOption(index)"></font-awesome-icon>
                     </td>
                     <td>
-                        <input type="text" class="form-control txtId" v-model="option.id">
+                        <vs-input type="text" class="form-control txtId" v-model="option.id"/>
                     </td>
                     <td>
-                        <input type="text" class="form-control txtText" v-model="option.text">
+                        <vs-input type="text" class="form-control txtText" v-model="option.text"/>
                     </td>
                 </tr>
                 </tbody>
