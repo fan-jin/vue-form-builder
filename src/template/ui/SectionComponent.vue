@@ -2,12 +2,12 @@
     <div>
         <div class="row">
 
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
                 <vs-select class="form-control" v-model="form.layout">
                     <vs-select-item value="" disabled selected>Select layout</vs-select-item>
                     <vs-select-item v-for="(value, key) in layouts" :value="key" :text="value"/>
                 </vs-select>
-            </div>
+            </div> -->
             <div class="col-md-10 text-right">
                 <vs-button class="btn btn-default" @click="preview">
                     <font-awesome-icon icon="image"/>

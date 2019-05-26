@@ -49,7 +49,7 @@
                 type: Object,
                 default:() => ({
                     sections: [],
-                    layout: "",
+                    layout: "collapse",
                     _uniqueId: Math.random()
                 })
             },
