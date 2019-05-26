@@ -7,7 +7,7 @@
         </div>
 
         <div class="col-md-12">
-            <div class="form-group">
+            <div class="form-group" style="display:none">
                 <label>Data Source</label> <br />
                 <label><input type="radio" name="isAjax" v-model="control.isAjax":value="false">Static Source</label>
                 <label><input type="radio" name="isAjax" v-model="control.isAjax" :value="true">Ajax Source</label>

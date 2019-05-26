@@ -6,7 +6,7 @@
             </div>
             <div class="col-md-8">
                 <div class="input-group">
-                    <input type="number"
+                    <vs-input-number
                            class="form-control"
                            :readonly="this.control.readonly"
                            :name="control.fieldName"
@@ -22,7 +22,7 @@
             </label>
 
             <div class="input-group">
-                <input type="number"
+                <vs-input-number
                        class="form-control"
                        :readonly="this.control.readonly"
                        :name="control.fieldName"

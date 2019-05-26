@@ -5,7 +5,7 @@
             <div class="col-md-2">
                 <vs-select class="form-control" v-model="form.layout">
                     <vs-select-item value="" disabled selected>Select layout</vs-select-item>
-                    <vs-select-item v-for="(value, key) in layouts" :value="key">{{value}} layout</vs-select-item>
+                    <vs-select-item v-for="(value, key) in layouts" :value="key" :text="value"/>
                 </vs-select>
             </div>
             <div class="col-md-10 text-right">
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <section-config-modal ref="SectionConfigModal" @updateSectionInfo="updateSectionInfo"></section-config-modal>
+        <!-- <section-config-modal ref="SectionConfigModal" @updateSectionInfo="updateSectionInfo"></section-config-modal> -->
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" style="display:none">
                 <div class="form-group">
                     <label>ID</label>
                     <vs-input type="text" readonly class="form-control" :value="control.name"/>
