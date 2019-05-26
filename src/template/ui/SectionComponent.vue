@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-md-2">
-                <select class="form-control" v-model="form.layout">
-                    <option value="" disabled selected>Select layout</option>
-                    <option v-for="(value, key) in layouts" :value="key">{{value}} layout</option>
-                </select>
+                <vs-select class="form-control" v-model="form.layout">
+                    <vs-select-item value="" disabled selected>Select layout</vs-select-item>
+                    <vs-select-item v-for="(value, key) in layouts" :value="key">{{value}} layout</vs-select-item>
+                </vs-select>
             </div>
             <div class="col-md-10 text-right">
                 <vs-button class="btn btn-default" @click="preview">

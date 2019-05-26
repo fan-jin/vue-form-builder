@@ -33,11 +33,11 @@
         <div class="row mt-2">
             <div class="col-md-12">
                 <label>
-                    <vs-checkbox name="isRequired" v-model="control.required"/> Required?
+                    <vs-checkbox name="isRequired" v-model="control.required">Required?</vs-checkbox>
                 </label>
 
                 <label>
-                    <vs-checkbox name="isReadonly" v-model="control.readonly"/> Readonly?
+                    <vs-checkbox name="isReadonly" v-model="control.readonly">Readonly?</vs-checkbox>
                 </label>
             </div>
         </div>

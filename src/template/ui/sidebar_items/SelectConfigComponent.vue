@@ -2,7 +2,7 @@
     <div class="row mt-2">
         <div class="col-md-12">
             <label>
-                <vs-checkbox name="isMultiple" v-model="control.isMultiple"/> Multiple Select
+                <vs-checkbox name="isMultiple" v-model="control.isMultiple">Multiple Select</vs-checkbox>
             </label>
         </div>
 
