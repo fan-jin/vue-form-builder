@@ -9,7 +9,7 @@
             <div class="col-md-8 input-group">
                 <vs-select class="form-control" v-if="control.type == 'select'" :name="control.fieldName">
                     <vs-select-item disabled selected text='Options'/>
-                    <vs-select-item v-for="option in control.dataOptions" :text="options.text">/>
+                    <vs-select-item v-for="option in control.dataOptions" :text="option.text"/>
                 </vs-select>
             </div>
         </div>
@@ -21,7 +21,7 @@
                 <div class="input-group">
                     <vs-select class="form-control" v-if="control.type == 'select'" :name="control.fieldName">
                         <vs-select-item disabled selected>Options</vs-select-item>
-                        <vs-select-item v-for="option in control.dataOptions">{{option.text}}</vs-select-item>
+                        <vs-select-item v-for="option in control.dataOptions" :text="option.text"/>
                     </vs-select>
                 </div>
             </div>

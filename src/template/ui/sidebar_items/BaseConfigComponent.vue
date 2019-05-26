@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-6" style="display:none">
                 <div class="form-group">
                     <label>ID</label>
@@ -20,15 +20,15 @@
                            data-toggle="tooltip" title="Field Name must be UNIQUE in Section!"/>
                 </div>
             </div>
-            <!-- <div class="col-md-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label>Width</label>
                     <select class="form-control" v-model="control.className">
                         <option v-for="(label, value) in widthOptions" :value="value">{{label}}</option>
                     </select>
                 </div>
-            </div> -->
-        </div>
+            </div>
+        </div> -->
 
         <div class="row mt-2">
             <div class="col-md-12">

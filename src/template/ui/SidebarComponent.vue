@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="controlSidebar list-group" v-show="!isConfig">
-            <a href="#" class="list-group-item active">
+            <!-- <a href="#" class="list-group-item active">
                 Supported Controls
-            </a>
+            </a> -->
             <div id="sidebarControls">
                 <a href="javascript:void(0)" class="list-group-item list-group-item-action control-wrapper"
                    v-for="(obj, value) in controls" :data-control-type="value">
@@ -14,9 +14,9 @@
         <div class="settingSidebar card" v-if="isConfig">
             <div class="card-body">
                 <div class="row mb-2">
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <h4>{{controlInfo.label}}</h4>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 text-right">
                         <vs-button class="btn btn-default" @click="applyEditSidebar">Apply</vs-button>
                         <vs-button class="btn btn-default" @click="closeEditSidebar">Close</vs-button>
